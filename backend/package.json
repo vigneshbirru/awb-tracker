@@ -1,0 +1,19 @@
+{
+  "name": "awb-tracker-backend",
+  "version": "1.0.0",
+  "description": "Sequential AWB status poller with real-time push to frontend (no permanent storage)",
+  "main": "src/server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "ioredis": "^5.4.1",
+    "socket.io": "^4.8.1"
+  }
+}

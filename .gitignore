@@ -1,0 +1,64 @@
+# ==========================================
+# 🛑 SENSITIVE DATA (Never commit these!)
+# ==========================================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.cert
+sftp-config.json
+
+# ==========================================
+# 💻 SYSTEM & OS FILES
+# ==========================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.trash/
+
+# ==========================================
+# 🛠️ IDEs & CODE EDITORS
+# ==========================================
+# VS Code
+.vscode/*
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/settings.json
+*.code-workspace
+
+# JetBrains (IntelliJ, WebStorm, PyCharm)
+.idea/
+*.iws
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# ==========================================
+# 📦 GENERAL BUILD, LOGS, & DIAGNOSTICS
+# ==========================================
+*.log
+*.log.*
+logs/
+*.tmp
+*.bak
+*.swp
+
+
+node_modules/
+
+.venv/
